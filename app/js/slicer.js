@@ -77,6 +77,6 @@ document.getElementById("slice").onclick = function(event)
 
     zip = new JSZip();
     ui.setStatus("Slicing...");
-    slices = zip.folder("slices");
+    slices = zip.folder(""); //Kudo3D can't handle subfolders in the zup file (also, even why???)
     next(0, count);
 }
