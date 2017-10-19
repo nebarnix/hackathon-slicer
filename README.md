@@ -1,3 +1,9 @@
+## This Fork
+I forked the project to make a Kudo3D Titan and Bean version of this slicer. 
+Modifications:
+* Removed subfolder from zip file. Images are now in root of zip. 
+* Chnaged printer.js to match the 100um xy resolution setting of the titan 1 (4.3 inch wide build plate, 1080p resolution) 
+
 ## About
 This project is a simple slicer for DLP-based 3D printers.
 
